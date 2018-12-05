@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "638976304312",
+    "firebase_url": "https://earls-f215a.firebaseio.com",
+    "project_id": "earls-f215a",
+    "storage_bucket": "earls-f215a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638976304312:android:d8a117bdd17d03f9",
+        "android_client_info": {
+          "package_name": "edu.uw.jkrishna.earls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638976304312-uq2k1g3ioe8hbpsd3m7t4c0mc4864795.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.uw.jkrishna.earls",
+            "certificate_hash": "74ba9842b712f911fb7a134b35636e302b00d65c"
+          }
+        },
+        {
+          "client_id": "638976304312-02hqdit4n2vlofdaeen1bsrbk7084kps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_22Mg3SbxIsLLbp4d8Ve7dDGWeWeu8g0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638976304312-02hqdit4n2vlofdaeen1bsrbk7084kps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

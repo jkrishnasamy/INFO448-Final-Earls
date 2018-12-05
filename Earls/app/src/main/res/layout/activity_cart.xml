@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/orderPrint"
+        android:layout_width="377dp"
+        android:layout_height="379dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/totalName"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="192dp"
+        android:text="Total"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/placeOrder"
+        app:layout_constraintTop_toBottomOf="@+id/orderPrint" />
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="61dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="140dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/placeOrder"
+        app:layout_constraintTop_toBottomOf="@+id/orderPrint" />
+
+    <Button
+        android:id="@+id/placeOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="140dp"
+        android:text="Place Order"
+        app:layout_constraintStart_toStartOf="@+id/orderPrint"
+        app:layout_constraintTop_toBottomOf="@+id/orderPrint" />
+
+</android.support.constraint.ConstraintLayout>
